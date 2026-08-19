@@ -1,0 +1,54 @@
+# Environment & Secrets
+.env
+.env.local
+*.pem
+*.key
+rebase_sprint.sh
+
+# Python / Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv*/
+venv*/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pytest / Test Artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+reports/allure-results/
+reports/allure-report/
+allure-report/
+allure-results/
+test-results/
+playwright-report/
+blob-report/
+.playwright-artifacts-*/
+
+# IDE / OS Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
