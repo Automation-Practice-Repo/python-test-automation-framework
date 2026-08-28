@@ -1,0 +1,10 @@
+[
+  {
+    "search_term": "organic tea",
+    "expected_category": "Beverages"
+  },
+  {
+    "search_term": "fresh honey",
+    "expected_category": "Pantry"
+  }
+]
