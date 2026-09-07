@@ -1,0 +1,30 @@
+environment: staging
+base_url: "https://demo.example.com"
+api_base_url: "https://api.demo.example.com"
+
+database:
+  postgres:
+    host: "localhost"
+    port: 5432
+    database: "testdb"
+    user: "testuser"
+    password: "testpass"
+  mongodb:
+    connection_string: "mongodb://localhost:27017"
+    database: "testdb"
+
+reporting:
+  allure_results: "reports/allure-results"
+  html_report: "reports/html"
+  screenshots: "reports/screenshots"
+
+execution:
+  parallel_workers: 4
+  screenshot_on_failure: true
+  video_on_failure: true
+  headless: true
+
+timeouts:
+  implicit_wait: 10
+  explicit_wait: 30
+  page_load: 60
